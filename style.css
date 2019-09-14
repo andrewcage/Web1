@@ -4,17 +4,32 @@ body{
     color:aliceblue;
     font-family: 'Josefin Sans', sans-serif;
 }
-.main{
+.pagename{
     background-color:darkblue;
 }
-.home{
+.main{
     background-color: darkcyan;
+    margin:0 auto;
+    padding:5px;
+    width: 750px;
 }
-.gallery{
-    background-color: darkviolet
+.item{
+    display: inline-block;
+    border: 2px solid rgb(0, 0, 75);
+    margin:10px;
+    padding: 15px;
+    background-color: rgb(42, 0, 121);
 }
-h2{
-    background-color: rgb(33, 2, 92);
+.itemimg{
+
+}
+.itemname{
+    text-transform: uppercase;
+    text-align: left;
+}
+.itemprice{
+    text-transform: capitalize;
+    text-align: left;
 }
 a{
     color: greenyellow;
