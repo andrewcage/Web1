@@ -1,9 +1,10 @@
 .main{
-	width: 1000px;
 	margin:auto;
+	width: 1080px;
 }
 html{
 	font-family: 'Raleway', sans-serif;
+	background: rgb(98, 187, 98);
 }
 .navbar{
 	font-family: 'Teko', sans-serif;
@@ -36,6 +37,7 @@ html{
 }
 #menu li{
 	display: inline-block;
+	text-align: center;
 	padding:10px;
 	list-style-type: none;
 }
@@ -67,6 +69,7 @@ html{
     padding: 15px;
     width:280px;
 	border-radius: 10px;
+	position: absolute;
 }
 .mySlides {
 	display: none;
@@ -87,9 +90,10 @@ html{
 	border-radius: 0 3px 3px 0;
 	user-select: none;
 }
-  .content{
-	  margin-top: 10px;
-  }
+.content{
+	margin-top: 10px;
+	padding-bottom: 30px;
+	}
 
 .next {
 	right: 0;
@@ -127,14 +131,6 @@ html{
 	display:inline-block;
 	margin: 5px
 }
-.aboutme{
-	display:inline-block;
-	border: 3px solid rgb(32, 0, 32);
-	border-radius: 10px;
-	width: 400px;
-	position: absolute;
-	margin: 5px
-}
   
 .dot {
 	cursor: pointer;
@@ -151,3 +147,101 @@ html{
 	background-color: #717171;
 }
 
+#aboutme{
+	display:inline-block;
+	position: absolute;
+	padding: 8px;
+	margin: 5px;
+}
+
+table{
+	background: white;
+	border: 1px solid #dddddd;
+	text-align: left;
+	margin-top: 10px;
+	padding: 8px;
+	width: 700px;
+}
+.table tr:nth-child(even){
+	background: #dddddd
+}
+
+.form{
+	display: inline-block;
+	position: absolute;
+	border: 3px solid black;
+	border-radius: 7px;
+	margin: 5px;
+	padding: 10px;
+}
+.map{
+	display: inline-block;
+	margin: 5px;
+	padding: 10px;
+}
+
+.html{
+	display: inline-block;
+    border: 4px solid rgb(0, 0, 120);
+    margin:10px;
+    padding: 15px;
+    width:280px;
+	border-radius: 10px;
+}
+.htmlimg{
+	display: inline-block;
+	position: absolute;
+	margin:10px;
+	padding: 2px;
+	border: 4px solid rgb(0, 0, 120);
+	border-radius: 10px;
+}
+
+.css{
+	display: inline-block;
+    border: 4px solid rgb(0, 0, 120);
+    margin:10px;
+    padding: 15px;
+    width:280px;
+	border-radius: 10px;
+}
+.cssimg{
+	display: inline-block;
+	position: absolute;
+	margin:10px;
+    padding: 10px;
+	border: 4px solid rgb(0, 0, 120);
+	border-radius: 10px;
+}
+.aboutme{
+	border: 3px solid rgb(32, 0, 32);
+	border-radius: 10px;
+	width: 400px;
+	padding: 8px;
+	margin: 5px;
+	display:inline-block;
+	position: absolute;
+}
+hr{
+	border-color: black;
+}
+ul{
+	list-style-type: none; 
+}
+.item{
+    display: inline-block;
+	border: 2px solid rgb(0, 0, 75);
+	
+    margin:10px;
+    padding: 15px;
+	background-color: rgb(59, 107, 56);
+	border-radius: 12px;
+}
+.itemname{
+    text-transform: uppercase;
+    text-align: left;
+}
+.itemprice{
+    text-transform: capitalize;
+    text-align: left;
+}
